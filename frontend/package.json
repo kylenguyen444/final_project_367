@@ -1,0 +1,57 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/lab": "^5.0.0-alpha.53",
+    "@mui/material": "^5.0.6",
+    "@mui/styles": "^5.0.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "history": "5",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-responsive-carousel": "^3.2.22",
+    "react-router-dom": "6",
+    "react-scripts": "4.0.3",
+    "reqwest": "^2.0.5",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "all": "rm -rf yarn.lock node_modules/ && yarn install && craco start --reset-cache"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "craco-alias": "^3.0.1"
+  }
+}
